@@ -1,0 +1,129 @@
+*{
+    box-sizing: content-box;
+}
+
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 236, 201);
+    
+}
+
+#profile{
+    width: 210px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px inset rgb(34, 32, 32);
+    box-shadow: 3px 3px rgb(119, 117, 117);
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#profile:hover{
+    transform: rotate(180deg);
+    
+}
+
+#name{
+    font-family: 'Satisfy', cursive;
+    font-size: 80px;
+    font-style: oblique;
+    text-decoration-line: underline;
+    margin-top: auto;
+
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:rgba(10, 10, 10,0.1);
+    padding: 0%;
+}
+
+hr{
+    width: auto;
+    border-bottom: 10px ridge;
+    border-color: black;
+    padding: 0%;
+}
+
+.main{
+    height: 300px;
+    background: rgba(10, 10, 10,0.2);
+    width: 100%;
+    padding: 10px;
+    margin-top: 10rem;
+}
+
+#mainpro{
+    width: 300px;
+    height: 300px;
+    float: left;
+    filter: blur(0.8px);
+    margin-top: auto;
+    margin-bottom: 1em;
+}
+
+
+.bio{
+    font-family: 'Satisfy', cursive;
+    font-size: 26px;
+    font-style: italic;
+    color: black; 
+    padding: 10px 10px;
+    
+}
+
+
+.dropdown-menu{
+    background:rgba(10, 10, 10,0.2);
+}
+
+.btn-secondary{
+    background:rgba(10, 10, 10,0.2);
+    color: black;
+    margin: 5px 5px;
+    font-family: 'Satisfy', cursive;
+    border-radius: 10px;
+
+}
+
+.btn-secondary:hover{
+    background:rgba(10, 10, 10,0.2);
+    color: black;
+}
+
+img{
+    width: 500px;
+    height: 550px;
+    margin: 10px;
+    border: 3px inset rgba(10, 10, 10,0.5);
+    box-shadow: 2px 2px black;
+    border-radius: 2%;
+}
+
+.buffer{
+    height: 15rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background:rgba(10, 10, 10,0.2);
+    box-sizing: content-box;
+    
+}
+
+.SP{
+    font-family: 'Satisfy', cursive;
+    font-size: 60px;
+    font-style: oblique;
+    margin-bottom: 4rem;
+
+}
+
+
